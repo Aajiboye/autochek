@@ -1,0 +1,38 @@
+{
+  "name": "autochek_api_cord",
+  "version": "1.0.0",
+  "description": "AUTOCHEK api co-ordinator",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --config jest.config.json",
+    "start": "node application/server.js",
+    "lint": "eslint --ext .js,.jsx ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aajiboye/autochek.git"
+  },
+  "keywords": [
+    "bidng_api_cord"
+  ],
+  "author": "Precious Osaro",
+  "license": "ISC",
+  "homepage": "https://github.com/Aajiboye/autochek.git#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "~2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "~4.17.1",
+    "got": "^11.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.3.0",
+    "log4js-cloudwatch-appender": "^1.1.0",
+    "mongoose": "^5.12.12"
+  },
+  "devDependencies": {
+    "@babel/traverse": "~7.14.1",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
