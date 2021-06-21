@@ -1,6 +1,9 @@
 # autochek
 A system that can tell the distance between a preconfigured location and user's location.
 
+# pattern 
+A microservice pattern approach was implemented. This repository contains two microservices, the location microservice and the coordinator service (api-cord). 
+
 # installation
 1. clone repo using git clone https://github.com/Aajiboye/autochek.git
 2. There are two services, the location microservice and the cordinator service. 
