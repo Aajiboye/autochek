@@ -5,6 +5,7 @@ A system that can tell the distance between a preconfigured location and user's 
 A microservice pattern approach was implemented. This repository contains two microservices, the location microservice and the coordinator service (api-cord). 
 
 # installation
+This installation assumes that you have nodejs and mongodb installed and running on your system.
 1. clone repo using git clone https://github.com/Aajiboye/autochek.git
 2. There are two services, the location microservice and the cordinator service. 
 # configuring the location microservice
